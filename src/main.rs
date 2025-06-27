@@ -124,7 +124,7 @@ fn main() {
     }
     if let Some(path) = args
         .next()
-        .filter(|arg| arg.ends_with(".ua") || arg.contains(is_separator))
+        .filter(|arg| arg.ends_with(".ua") || arg.contains(is_separator) || std::fs::exists(arg))
     {
         let args = args.collect();
         run(path.as_ref(), args, false, None, None, None, false);

@@ -407,7 +407,7 @@
     "outputs": 1,
     "modifier_args": 1,
     "class": "Stack",
-    "description": "Call a function with its arguments reversed"
+    "description": "Call a function with its arguments swapped"
   },
   "base": {
     "glyph": "⊥",
@@ -590,6 +590,8 @@
     "description": "Drop the first n rows of an array"
   },
   "dump": {
+    "ascii": "?!",
+    "glyph": "‽",
     "args": 0,
     "outputs": 0,
     "modifier_args": 1,
